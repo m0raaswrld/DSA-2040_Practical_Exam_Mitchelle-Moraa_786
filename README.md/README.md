@@ -3,16 +3,17 @@
 **Project Overview and Submission Details**
 
 
-Project Title	Comprehensive Data Mining and Business Intelligence Analysis of E-Commerce Retail Data
+`Project Title:	Comprehensive Data Mining and Business Intelligence Analysis of E-Commerce Retail Data
 
-Course Code	    DSA2040
+`Course Code:	    DSA2040`
 
-Submission Date	14 December 2025
+`Submission Date:	14 December 2025`
 
-Student Name	MITCHELLE MORAA
+`Student Name:	MITCHELLE MORAA`
 
-Data Source	"Online Retail" (Transactional E-commerce Dataset)
-Primary Libraries	pandas, numpy, sklearn, plotly.express, matplotlib, dash
+`Data Source:	"Online Retail" (Transactional E-commerce Dataset)`
+
+`Primary Libraries:	pandas, numpy, sklearn, plotly.express, matplotlib, dash`
 
 **Introduction and Project Goals**
 
