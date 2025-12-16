@@ -73,22 +73,40 @@ Clear evidence of a strong seasonal trend, with a sharp peak in Q4 (likely due t
 
 Python
 
-fig = px.line(
-    df_quarterly,
-    x='QuarterlyPeriod',
-    y='TotalSales',
-    title='Quarterly Sales Trend Over Time (Online Retail)',
-    markers=True,
-    labels={'TotalSales': 'Total Revenue (£)', 'QuarterlyPeriod': 'Reporting Period'}
-)
-fig.update_layout(
-    xaxis_tickangle=-45,
-    font=dict(size=12),
-    xaxis_title='Time Period'
-)
-fig.show()
-fig = px.line(df_quarterly, x='QuarterlyPeriod', y='TotalSales', title='Quarterly Revenue Trend')
-fig.show()
+    fig = px.line(
+
+        df_quarterly,
+
+        x='QuarterlyPeriod',
+
+        y='TotalSales',
+
+        title='Quarterly Sales Trend Over Time (Online Retail)',
+
+        markers=True,
+        
+        labels={'TotalSales': 'Total Revenue (£)', 
+        
+        'QuarterlyPeriod': 'Reporting Period'}
+    )
+
+    fig.update_layout(
+
+        xaxis_tickangle=-45,
+
+        font=dict(size=12),
+
+        xaxis_title='Time Period'
+
+    )
+
+    fig.show()
+
+     = px.line(df_quarterly, x='QuarterlyPeriod', 
+     
+     y='TotalSales', title='Quarterly Revenue Trend')
+
+    fig.show()
 
 4.2. GEOGRAPHIC AND PRODUCT PERFORMANCE
 
@@ -168,11 +186,17 @@ This is the most crucial output. Rules above the Lift = 1.0 dashed line indicate
 
 Python
 
-fig = px.scatter(
-    rules_df, x='confidence', y='lift', size='support',
-    hover_data={'antecedents_str': True, 'consequents_str': True})
-fig.add_hline(y=1.0, line_dash="dash", line_color="red")
-fig.show()
+    fig = px.scatter(
+
+        rules_df, x='confidence', y='lift', size='support',
+
+        hover_data={'antecedents_str': True, 'consequents_str':
+        
+        True})
+
+    fig.add_hline(y=1.0, line_dash="dash", line_color="red")
+    
+    fig.show()
 
 **Part III: Supervised Learning (Classification Justification)**
 
