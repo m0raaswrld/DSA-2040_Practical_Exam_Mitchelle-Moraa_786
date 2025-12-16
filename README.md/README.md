@@ -1,6 +1,6 @@
 `Project README: End-of-Semester Data Mining and Business Intelligence Project`
 
-1. Project Overview and Submission Details 
+**Project Overview and Submission Details**
 
 
 Project Title	Comprehensive Data Mining and Business Intelligence Analysis of E-Commerce Retail Data
@@ -14,7 +14,7 @@ Student Name	MITCHELLE MORAA
 Data Source	"Online Retail" (Transactional E-commerce Dataset)
 Primary Libraries	pandas, numpy, sklearn, plotly.express, matplotlib, dash
 
-2. **Introduction and Project Goals**
+**Introduction and Project Goals**
 
 This project provides a detailed, multi-faceted analysis of a transactional e-commerce dataset ("Online Retail") spanning a 12-month period. The primary objective is to demonstrate proficiency in core data mining techniques and leverage these insights to construct an interactive Business Intelligence (BI) dashboard.
 
@@ -26,7 +26,7 @@ The analysis is structured into three main parts:
 
     Supervised Learning: Visualizing feature separability for classification model justification.
 
-3. **Methodology and Data Preparation**
+**Methodology and Data Preparation**
 
 3.1. DATA CLEANING AND ENGINEERING
 
@@ -54,7 +54,7 @@ For customer segmentation, the Recency, Frequency, and Monetary (RFM) model was 
 The initial phase built a robust ETL process, populating a relational data warehouse (retail_dw.db) using a Star Schema with one central Fact Table and three Dimension Tables (CustomerDim, ProductDim, TimeDim)
 ![alt text](<../Visualizations/Star Schema/Star Schema.jpg>)
 
-4. **Part I: Data Warehouse & Business Intelligence (BI) Analysis**
+**Part I: Data Warehouse & Business Intelligence (BI) Analysis**
 
 4.1. QUARTERLY SALES TREND
 
@@ -124,7 +124,7 @@ C. **Violin Plots**
 
 Segment Validation: Shows the full distribution, including median and quartiles, of a feature  across the different K-Means clusters. 
 
-5. **Part II: Unsupervised Learning**
+**Part II: Unsupervised Learning**
 
 5.1. K-MEANS CLUSTERING FOR CUSTOMER SEGMENTATION
 
@@ -173,7 +173,7 @@ fig = px.scatter(
 fig.add_hline(y=1.0, line_dash="dash", line_color="red")
 fig.show()
 
-6. **Part III: Supervised Learning (Classification Justification)**
+**Part III: Supervised Learning (Classification Justification)**
 
 To support the comparison of classifiers like Decision Trees (DT) and K-Nearest Neighbors (KNN) (e.g., using the Iris dataset), a visualization of feature separability is essential.
 
@@ -187,7 +187,7 @@ Insight
 
 Plots two discriminative features (e.g., Petal Length vs. Petal Width) colored by the True Class Label. This plot visually justifies the high accuracy of simple classifiers like DT, showing where clear, linear splits are possible.
 
-7. **Final Deliverable: Comprehensive Analysis Dashboard**
+**Final Deliverable: Comprehensive Analysis Dashboard**
 
 The final deliverable is an interactive, web-based dashboard built using Plotly Dash that consolidates the key insights from all analytical components into one view. The dashboard layout is designed to group similar analyses logically (Sales, Customer/ML).
 
@@ -256,6 +256,6 @@ if __name__ == '__main__':
     # Corrected method to run the Dash application
     app.run(debug=True)
 
-8. Conclusion
+**Conclusion**
 
 The comprehensive analysis successfully utilized various data mining techniques to derive actionable business insights. The BI component established core performance metrics across time and geography. Unsupervised methods yielded distinct customer segments via K-Means and high-impact product recommendation rules via Apriori. All key findings were integrated into a professional, interactive Plotly Dash dashboard, fulfilling the core requirements of the project.
