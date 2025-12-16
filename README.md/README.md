@@ -257,7 +257,6 @@ app.layout = html.Div(style={'backgroundColor': '#f0f2f5', 'padding': '20px'}, c
 
 if __name__ == '__main__':
     print("Dashboard starting... Visit http://127.0.0.1:8050/ in your browser.")
-    # Corrected method to run the Dash application
     app.run(debug=True)
 
 **Conclusion**
