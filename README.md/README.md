@@ -202,11 +202,14 @@ Row	Left Component (50% Width)	Right Component (50% Width)
 
 B. Quarterly Revenue Trend (Line Plot)
 
-2	C. Top 10 Countries by Total Revenue
+C. Top 10 Countries by Total Revenue
 
 D. Customer Monetary Value Distribution (Histogram/RFM)
 
-3	E. Association Rules: Lift vs. Confidence (Scatter Plot)	N/A (Full Width)
+E. Association Rules: Lift vs. Confidence (Scatter Plot)	N/A (Full Width)
+
+![alt text](../Visualizations/Dashboard/Dash1.jpg)
+![alt text](../Visualizations/Dashboard/Dash2.jpg)
 
 7.2. DASHBOARD EXECUTION CODE
 
